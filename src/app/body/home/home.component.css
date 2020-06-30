@@ -1,0 +1,75 @@
+.body{
+    padding: 0px;
+    margin-top: 0px;
+   
+  }
+  .box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+  position: fixed;
+  z-index: 999;
+  margin: 0px auto;
+  left: 0px;
+  right: 0;
+  top: 40%;
+  text-align: center;
+  width: 47%;
+  color: whitesmoke;
+}  body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Permanent Marker', cursive;;
+  letter-spacing: 5px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: -webkit-fill-available;
+}
+
+.prism {
+  --intensity: 1;
+  --scaleFactor: 1.01;
+  --blur: 69;
+  --redTop: 39;
+  --redLeft: 0;
+  --greenTop: 0;
+  --greenLeft: 0;
+  --blueTop: 0;
+  --blueLeft: 0;
+  position: relative;
+  top: 0;
+  color: mintcream;
+  background: linear-gradient(45deg, #3F5CE5, transparent);
+ 
+  border: 2px solid #1c172e38;
+  transition: border-color 0.2s linear, top 0.1s ease;
+  
+}
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: var(--border-radius, 100em);
+  padding: 1em 2em;
+  font-weight: bolder;
+ 
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+:root {
+  --bg: #222;
+  --fg: #fff;
+  --border-radius: 9em;
+  font-size: 30px;
+}
